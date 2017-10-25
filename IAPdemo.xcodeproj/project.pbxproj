@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C78FD911F64362200E23D05 /* InAppPurchase_oc.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9C78FD901F64362200E23D05 /* InAppPurchase_oc.mm */; };
+		08264C0E03D8E4A238027543 /* Pods_IAPdemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B2D62621003A3609821C43E /* Pods_IAPdemo.framework */; };
 		9C78FD941F6437E500E23D05 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C78FD931F6437E500E23D05 /* StoreKit.framework */; };
 		9CF68E161F63F30C0003CDFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF68E151F63F30C0003CDFE /* main.m */; };
 		9CF68E191F63F30C0003CDFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF68E181F63F30C0003CDFE /* AppDelegate.m */; };
@@ -16,8 +16,6 @@
 		9CF68E211F63F30C0003CDFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF68E201F63F30C0003CDFE /* Assets.xcassets */; };
 		9CF68E241F63F30C0003CDFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF68E221F63F30C0003CDFE /* LaunchScreen.storyboard */; };
 		9CF68E2F1F63F30C0003CDFE /* IAPdemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF68E2E1F63F30C0003CDFE /* IAPdemoUITests.m */; };
-		9CF68E461F64225B0003CDFE /* IAPApi.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9CF68E451F64225B0003CDFE /* IAPApi.mm */; };
-		9CF68E4F1F642FB80003CDFE /* IAPMsgHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9CF68E4D1F642FB80003CDFE /* IAPMsgHandler.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9C78FD8F1F64362200E23D05 /* InAppPurchase_oc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppPurchase_oc.h; sourceTree = "<group>"; };
-		9C78FD901F64362200E23D05 /* InAppPurchase_oc.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = InAppPurchase_oc.mm; sourceTree = "<group>"; };
+		4B2D62621003A3609821C43E /* Pods_IAPdemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IAPdemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8123966347E4D5749C7695AD /* Pods-IAPdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAPdemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IAPdemo/Pods-IAPdemo.release.xcconfig"; sourceTree = "<group>"; };
 		9C78FD931F6437E500E23D05 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		9CF68E111F63F30C0003CDFE /* IAPdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IAPdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF68E151F63F30C0003CDFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,11 +45,7 @@
 		9CF68E2A1F63F30C0003CDFE /* IAPdemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IAPdemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF68E2E1F63F30C0003CDFE /* IAPdemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IAPdemoUITests.m; sourceTree = "<group>"; };
 		9CF68E301F63F30C0003CDFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CF68E441F64225B0003CDFE /* IAPApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPApi.h; sourceTree = "<group>"; };
-		9CF68E451F64225B0003CDFE /* IAPApi.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IAPApi.mm; sourceTree = "<group>"; };
-		9CF68E4C1F642D720003CDFE /* IAPDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAPDefine.h; sourceTree = "<group>"; };
-		9CF68E4D1F642FB80003CDFE /* IAPMsgHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IAPMsgHandler.cpp; sourceTree = "<group>"; };
-		9CF68E4E1F642FB80003CDFE /* IAPMsgHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPMsgHandler.h; sourceTree = "<group>"; };
+		BD50EA84C50914B586E54A2B /* Pods-IAPdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAPdemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IAPdemo/Pods-IAPdemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +54,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C78FD941F6437E500E23D05 /* StoreKit.framework in Frameworks */,
+				08264C0E03D8E4A238027543 /* Pods_IAPdemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				9C78FD931F6437E500E23D05 /* StoreKit.framework */,
+				4B2D62621003A3609821C43E /* Pods_IAPdemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,6 +84,7 @@
 				9CF68E2D1F63F30C0003CDFE /* IAPdemoUITests */,
 				9CF68E121F63F30C0003CDFE /* Products */,
 				9C78FD921F6437E500E23D05 /* Frameworks */,
+				A0BEDDE79E0B830388C3EE3B /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,7 +100,6 @@
 		9CF68E131F63F30C0003CDFE /* IAPdemo */ = {
 			isa = PBXGroup;
 			children = (
-				9CF68E3A1F63F5420003CDFE /* iap */,
 				9CF68E171F63F30C0003CDFE /* AppDelegate.h */,
 				9CF68E181F63F30C0003CDFE /* AppDelegate.m */,
 				9CF68E1A1F63F30C0003CDFE /* ViewController.h */,
@@ -134,18 +130,13 @@
 			path = IAPdemoUITests;
 			sourceTree = "<group>";
 		};
-		9CF68E3A1F63F5420003CDFE /* iap */ = {
+		A0BEDDE79E0B830388C3EE3B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9CF68E4C1F642D720003CDFE /* IAPDefine.h */,
-				9CF68E441F64225B0003CDFE /* IAPApi.h */,
-				9CF68E451F64225B0003CDFE /* IAPApi.mm */,
-				9C78FD8F1F64362200E23D05 /* InAppPurchase_oc.h */,
-				9C78FD901F64362200E23D05 /* InAppPurchase_oc.mm */,
-				9CF68E4D1F642FB80003CDFE /* IAPMsgHandler.cpp */,
-				9CF68E4E1F642FB80003CDFE /* IAPMsgHandler.h */,
+				BD50EA84C50914B586E54A2B /* Pods-IAPdemo.debug.xcconfig */,
+				8123966347E4D5749C7695AD /* Pods-IAPdemo.release.xcconfig */,
 			);
-			path = iap;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,9 +146,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9CF68E331F63F30C0003CDFE /* Build configuration list for PBXNativeTarget "IAPdemo" */;
 			buildPhases = (
+				B5BCD2FDAE5752C0A32101D9 /* [CP] Check Pods Manifest.lock */,
 				9CF68E0D1F63F30C0003CDFE /* Sources */,
 				9CF68E0E1F63F30C0003CDFE /* Frameworks */,
 				9CF68E0F1F63F30C0003CDFE /* Resources */,
+				0F2DA9B70C13A5D328B40A12 /* [CP] Embed Pods Frameworks */,
+				0302DCF57CF47388479A12AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -197,6 +191,7 @@
 				TargetAttributes = {
 					9CF68E101F63F30C0003CDFE = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2LCBC5683M;
 						ProvisioningStyle = Automatic;
 					};
 					9CF68E291F63F30C0003CDFE = {
@@ -245,15 +240,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0302DCF57CF47388479A12AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IAPdemo/Pods-IAPdemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F2DA9B70C13A5D328B40A12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IAPdemo/Pods-IAPdemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ez_iap/ez_iap.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ez_iap.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IAPdemo/Pods-IAPdemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5BCD2FDAE5752C0A32101D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IAPdemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9CF68E0D1F63F30C0003CDFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9CF68E1C1F63F30C0003CDFE /* ViewController.mm in Sources */,
-				9CF68E461F64225B0003CDFE /* IAPApi.mm in Sources */,
-				9CF68E4F1F642FB80003CDFE /* IAPMsgHandler.cpp in Sources */,
-				9C78FD911F64362200E23D05 /* InAppPurchase_oc.mm in Sources */,
 				9CF68E191F63F30C0003CDFE /* AppDelegate.m in Sources */,
 				9CF68E161F63F30C0003CDFE /* main.m in Sources */,
 			);
@@ -338,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -381,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -391,22 +437,26 @@
 		};
 		9CF68E341F63F30C0003CDFE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD50EA84C50914B586E54A2B /* Pods-IAPdemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2LCBC5683M;
 				INFOPLIST_FILE = IAPdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = haroel.IAPdemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tark.ezgame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		9CF68E351F63F30C0003CDFE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8123966347E4D5749C7695AD /* Pods-IAPdemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2LCBC5683M;
 				INFOPLIST_FILE = IAPdemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = haroel.IAPdemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tark.ezgame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

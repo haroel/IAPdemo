@@ -9,9 +9,6 @@
 #ifndef IAPDefine_h
 #define IAPDefine_h
 
-#include <functional>
-#include <string>
-
 enum IAP_CODE
 {
     ErrorUnknown = 100,
@@ -24,6 +21,8 @@ enum IAP_CODE
     ErrorCloudServicePermissionDenied =106,           // user has not allowed access to cloud service information
     ErrorCloudServiceNetworkConnectionFailed =107,    // the device could not connect to the nework
     ErrorCloudServiceRevoked =108,                   // user has revoked permission to use this cloud service
+    ErrorVerifyReceipt = 110,  // IAP验证错误
+    ErrorRestoreTransactionsFailed = 111,
     
     LIST_AVALIABLE = 0,        // 获得购买列表
     IAPPAY_SUCCESS  = 1,
@@ -33,7 +32,5 @@ enum IAP_CODE
 
 #define IAP_SANDBOX "https://sandbox.itunes.apple.com/verifyReceipt"
 #define IAP_RELEASE "https://buy.itunes.apple.com/verifyReceipt"
-
-typedef std::function<void(int code,std::string params)> IAPCallback;
 
 #endif /* IAPDefine_h */
